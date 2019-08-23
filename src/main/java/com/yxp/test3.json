@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "typeName": {
+      "type": "integer"
+    },
+    "template": {
+      "type": "string"
+    }
+  },
+  "required" : [
+    "typeName",
+    "template"
+  ]
+}

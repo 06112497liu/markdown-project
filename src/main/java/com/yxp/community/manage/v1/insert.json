@@ -1,0 +1,70 @@
+{
+  // 敏感词标记规则
+  "markRule": {
+    "prefix": "<b>",
+    "suffix": "</b>"
+  },
+  "sourceId": "656161615616161", // 数据源id
+  "sourceParentId": "978681321364", // 数据源父id
+  "appCode": "56point", // 接入平台编码
+  "moduleCode": "class_space", // 模块名称
+  "publishDate": "2018-05-05 18:25:44", // 发帖时间
+  "publishUser": { // 发帖人信息
+    "name": "山姆",
+    "account": "sam",
+    "orgId": "64556651651",
+    "orgName": "56点分校",
+    "classInfo": "6年级3班",
+    "roles": [ // 发帖人角色信息
+      {
+        "name": "角色名称",
+        "code": "1"
+      }
+    ]
+  },
+  "title": "标题",
+  "summary": "摘要",
+  "text_content": "文本内容",
+  "other_content": { // 其它数据类型的内容
+    "pictures": [
+      {
+        "name": "图片名称",
+        "description": "图片描述",
+        "url": "https://gw.alipayobjects.com/a/g/lark/twemoji/2.3.6/1f625.jpg",
+        "size": "25.02KB"
+      }
+    ],
+    "voices": [
+      {
+        "name": "音频名称",
+        "description": "音频描述",
+        "url": "https://file-bang.youxuepai.com/ask_uploadfile/36/22/36229401bc7a69336b4cded34c87db06.mp3",
+        "size": "6分3秒"
+      }
+    ],
+    "videos": [
+      {
+        "name": "视频名称",
+        "description": "视频描述",
+        "url": "https://file-bang.youxuepai.com/ask_uploadfile/36/22/36229401bc7a69336b4cded34c87db06.mp4",
+        "size": "6分3秒"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "附件名称",
+        "description": "附件描述",
+        "url": "https://gw.alipayobjects.com/a/g/lark/twemoji/2.3.6/1f625.txt",
+        "size": "25.02KB"
+      }
+    ],
+    "materials": [
+      {
+        "name": "资料名称",
+        "description": "资料描述",
+        "url": "https://gw.alipayobjects.com/a/g/lark/twemoji/2.3.6/1f625.txt",
+        "size": "25.02KB"
+      }
+    ]
+  }
+}
