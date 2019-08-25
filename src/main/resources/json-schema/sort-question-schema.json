@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "properties": {
+    "typeName": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "promt": {
+      "type": "string",
+      "pattern": "[A-Z]"
+    },
+    "body": {
+      "type": "object",
+      "properties": {
+        "options": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "properties": {
+              "option": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "option",
+              "value"
+            ]
+          }
+        },
+        "rule": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "options",
+        "rule"
+      ]
+    },
+    "answer": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value"
+      ]
+    }
+  },
+  "required": [
+    "typeName",
+    "template",
+    "promt",
+    "body",
+    "answer"
+  ]
+}

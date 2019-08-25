@@ -1,0 +1,35 @@
+{
+  "typeName": "排序题",
+  "template": "ORDER_CHOICE_TEMPLATE",
+  "promt": "请将下面内容按正确顺序连成一句话",
+  "body": {
+    "options": [
+      {
+        "option": "B",
+        "value": "2"
+      },
+      {
+        "option": "C",
+        "value": "3"
+      },
+      {
+        "option": "D",
+        "value": "4"
+      }
+    ],
+    "rule": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  "answer": {
+    "value": [
+      "C",
+      "E",
+      "A",
+      "B"
+    ]
+  }
+}
